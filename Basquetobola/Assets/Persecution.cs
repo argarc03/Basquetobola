@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Persecution : MonoBehaviour {
+public class Persecution : MonoBehaviour
+{
+    GameObject player;
+    NavMeshAgent nav;
 
-	GameObject player;
+    void Start()
+    {
+    }
 
-	void Start(){
-		player = GameObject.FindGameObjectWithTag("Player");
-		if(!player){
-			Debug.Log("Make sure your player is tagged!!");
-		}
-	}
-	void Update()
-	{
-		GetComponent<NavMeshAgent>().destination = player.transform.position;
-	}
+    private void Update()
+    {
+        nav = GetComponent<NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (nav != null && player != null && nav.isActiveAndEnabled)
+            nav.SetDestination(player.transform.position);
+    }
 }

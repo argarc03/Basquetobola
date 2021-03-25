@@ -1,9 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basquetobola", "Assembly-CSharp.csproj", "{011D122E-F853-D975-CCA5-CA97C8A70C12}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{011D122E-F853-D975-CCA5-CA97C8A70C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basquetobola", "Assembly-CSharp-Editor.csproj", "{8B27B2C2-0DFD-583C-D085-83C0AF301400}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8B27B2C2-0DFD-583C-D085-83C0AF301400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
